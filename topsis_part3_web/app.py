@@ -9,8 +9,8 @@ import os
 app = Flask(__name__)
 
 
-SENDER_EMAIL = "asingla4_be23@thapar.edu"
-SENDER_PASS = "dupyghnwlhyzokjm"
+SENDER_EMAIL = "YOUR_EMAIL"
+SENDER_PASS = "Your_app_password"
 
 
 def send_email(to_email, filepath):
