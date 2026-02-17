@@ -1,0 +1,34 @@
+Metadata-Version: 2.4
+Name: Topsis-Akshit-102317084
+Version: 1.0.0
+Summary: TOPSIS command line tool
+Author: Akshit
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: pandas
+Requires-Dist: numpy
+Requires-Dist: openpyxl
+Dynamic: author
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: license-file
+Dynamic: requires-dist
+Dynamic: summary
+
+# TOPSIS Package
+
+Command line implementation of TOPSIS method.
+
+## Usage
+
+topsis-run <inputfile> <weights> <impacts> <outputfile>
+
+Example:
+
+topsis-run data.xlsx 1,1,1,1,1 +,+,-,+,+ result.xlsx
+
+## Requirements
+
+- pandas
+- numpy
+- openpyxl
